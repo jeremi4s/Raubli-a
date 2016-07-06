@@ -6,17 +6,19 @@
     <link  href="imagenes/rs.png"  type="image/x-icon"  rel="shortcut icon">
     <link  type="text/css"  rel="stylesheet"  media="screen"  href="css/style.css">
     <link  type="text/css"  rel="stylesheet"  media="screen"  href="css/style-menu.css">
-    <link href="css/estilos.css" rel="stylesheet">
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-
-	<script  type="text/javascript"  src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    
+    <link  href="css/estilos.css"  rel="stylesheet">
+    <script  type="text/javascript"  src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script  type="text/javascript"  src="js/jquery.easing.1.3.js"></script>
     <script  type="text/javascript"  src="js/jquery.animate-colors-min.js"></script>
     <script  type="text/javascript"  src="js/jquery.skitter.min.js"></script>
     <script  type="text/javascript"  language="javascript"></script>
     <script  src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  </head>
+    <script  type="text/javascript"  src="js/bootstrap.min.js"></script>
+    
+    
+    
+   </head>
   <body  id="body">
     <div  id="b1">
       <div  id="cabecera">
@@ -40,7 +42,7 @@
                       <li  onclick="location.href='./construccion.html';">Sivir</li>
                       <li  onclick="location.href='./construccion.html';">Amumu</li>
                       <li  onclick="location.href='./construccion.html';">Skarner</li>
-                      <li  onclick="location.href='./c.html';">Rammus</li>
+                      <li  onclick="location.href='./construccion.html';">Rammus</li>
                     </ul>
                   </div>
                 </div>
@@ -51,8 +53,8 @@
                     <ul>
                       <li  onclick="location.href='./construccion.html';">Corazón
                         de Hielo</li>
-                      <li  onclick="location.href='./construccion.html';">Capa de
-                        fuego Solar</li>
+                      <li  onclick="location.href='./construccion.html';">Capa
+                        de fuego Solar</li>
                       <li  onclick="location.href='./construccion.html';">Hidra
                         Titánica</li>
                       <li  onclick="location.href='./construccion.html';">Placa
@@ -70,40 +72,60 @@
         </div>
       </div>
     </div>
-    <div  id="cuerpo">
-          <div id="formulario">
-        <form class="form-inline" role="form" action="" method="POST" id="contacto" title="Nombre">
-        <label for="nombre">Nombre</label>
-        <input class="form-control name=" name="nombre" type="text" required="required" id="nombre" placeholder="nombre" tabindex="1" title="Nombre">
-        <br>
-        <label for="email">Email</label>
-        <input class="form-control name=" name="email" type="email" required="required" id="email" placeholder="email" tabindex="2" title="Email">
-        <br>
-        <label for="telefono">Teléfono</label>
-        <input class="form-control name=" name="telefono" type="text" id="telefono" placeholder="telefono" tabindex="3" title="Telefono">
-        <br>
-        <label for="ciudad">Ciudad</label>
-        <input class="form-control name=" name="ciudad" type="text" id="ciudad" placeholder="ciudad" tabindex="4" title="ciudad">
-        <br>
-        <label for="pais">País</label>
-        <input class="form-control name=" name="pais" type="pais" id="pais" placeholder="pais" tabindex="5" title="pais">
-        <br>
-        <label for="Mensaje">Mensaje</label>
-        <textarea class="form-control name=" name="mensaje" rows="4" id="mensaje" placeholder="mensaje" tabindex="6"></textarea>
-        <br>
-        <input class="btn btn-primary" type="submit" name="enviar" tabindex="7" onclick=abrir() value="Enviar"><input type="reset" tabindex="8" class="btn btn-primary" value="Borrar">
-        <input type="hidden" name="estado" value="1">
-		<script> 
+    <div  id="formulario">
+        <form  class="form-inline"  role="form"  action=""  method="POST"  id="contacto"
+
+           title="Nombre"> 
+          
+          <div id="campos">
+          <div class="campo">
+          <label  for="nombre">Nombre</label> <input  class="form-control name="
+
+             name="nombre"  required="required"  id="nombre"  placeholder="nombre"
+
+             tabindex="1"  title="Nombre"  type="text"> </div>
+          <div class="campo">
+            <label  for="email">Email</label> <input  class="form-control name="
+
+             name="email"  required="required"  id="email"  placeholder="email"
+
+             tabindex="2"  title="Email"  type="email"> </div>
+          <div class="campo">
+            <label  for="telefono">Teléfono</label> <input  class="form-control name="
+
+             name="telefono"  id="telefono"  placeholder="telefono"  tabindex="3"
+
+             title="Telefono"  type="text"> </div>
+          <div class="campo">
+            <label  for="ciudad">Ciudad</label> <input  class="form-control name="
+
+             name="ciudad"  id="ciudad"  placeholder="ciudad"  tabindex="4"  title="ciudad"
+
+             type="text"> </div>
+            <div class="campo">
+          <label  for="pais">País</label> <input  class="form-control name="  name="pais"
+
+             id="pais"  placeholder="pais"  tabindex="5"  title="pais"  type="pais">
+          </div>
+              <div class="campo">
+          <label  for="Mensaje">Mensaje</label> <textarea  class="form-control name="
+
+ name="mensaje"  rows="4"  id="mensaje"  placeholder="mensaje"  tabindex="6"></textarea>
+          </div>
+            </div>
+          <div id="botones">
+          <input  class="btn btn-primary"  name="enviar"  tabindex="7"  onclick="abrir()"
+
+             value="Enviar"  type="submit"><input  tabindex="8"  class="btn btn-primary"
+
+             value="Borrar"  type="reset"> <input  name="estado"  value="1"  type="hidden"></div>
+          <script> 
 function abrir() { 
 
 window.alert('Su mensaje fue enviado con exito'); 
 
 } 
-</script> 
-        
-        </form>
-    </div>
-    </div>
+</script> </form> </div>
     <div  id="footer">
       <div  id="logof"><a  href="./index.html"><img  style="width: 100px; height: 50px;"
 
