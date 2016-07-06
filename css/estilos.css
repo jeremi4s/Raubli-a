@@ -11,11 +11,12 @@ input {
 
 #formulario {
 	width: 400px;
+	height:800px;
 	margin: 0 auto;
 	background-color:#000;
 	color:#00f300;
 	padding: 10px 30px;
-	border-radius: 15px;
+	
 	border:thin #00f300;
 	font-family:SceneProLight, Arial, Helvetica, sans-serif;
 }
