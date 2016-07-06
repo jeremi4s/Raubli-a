@@ -1,21 +1,48 @@
+.campo{
+	margin-top: 5px;
+	margin-bottom: 20px;
+	font-family:SceneProLight, Arial, Helvetica, sans-serif;
+}
+
 label {
-	width: 140px;	
+
+	width: 200px;	
 	padding: 4px;
 }
 
+.btn{
+	width: 150px;
+	float: auto;
+}
+
+#botones{
+	margin-top: 70px;
+	text-align: center;
+	position: relative;
+}
+
 input {
-	width: 140px;	
+	width: 200px;	
 	padding: 4px;
-	margin: 5px 5px;	
+	margin: 5px 5px;
+	float: right;	
+}
+
+textarea {
+	width: 200px;	
+	padding: 4px;
+	margin: 5px 5px;
+	float: right;
+bottom: 0px;	
 }
 
 #formulario {
 	width: 400px;
-	height:800px;
-	margin: 0 auto;
+	height:auto;
+	min-height: 600px;
+	margin: 100px auto;
 	background-color:#000;
 	color:#00f300;
 	padding: 10px 30px;
 	border:thin #00f300;
-	font-family:SceneProLight, Arial, Helvetica, sans-serif;
 }
