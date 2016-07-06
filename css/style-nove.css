@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/* CSS Document */
+#novedades{
+	margin-top:100px;
+	
+}
+
+
+
+.habi{
+	margin-top: 10px;
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+.t5{
+	font-size: 30px;
+	font-family: SceneProLight, Arial, Helvetica, sans-serif;
+	color: #fff;
+	line-height: 25px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+/*	font-weight: bold;*/
+}
+.hb{
+	float: left;
+}
+.imc{
+
+	width: 110px; 
+	height: 110px; 
+	border-radius: 50%;
+	border: 1px solid #00f300;
+	margin-left: 10px;
+    margin-right: 10px;
+	 margin-bottom: 10px;
+	
+}
+
+#camp{
+	width: 80%;
+	margin-left: 10%;
+    margin-right: auto;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.im{
+
+	max-width: 80%; 
+	margin-top: 30px;
+	margin-left: 10%;
+    margin-right: auto;
+	border: 1px solid #00f300;
+	text-align: center;
+	
+}
+
+#novedad {
+	margin-top: 120px;
+	margin-bottom: 120px;
+	background-color: #111;
+	border: 2px solid #00f300;
+}
+
+.t4{
+	
+	font-size: 20px;
+	font-family: SceneProLight, Arial, Helvetica, sans-serif;
+	color: #fff;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	margin-right: 180px;
+	margin-left: 180px;
+	line-height: 25px;
+	text-align: center;
+/*	font-weight: bold;*/
+}
+
+.t3{
+	
+	font-size: 15px;
+	font-family: SceneProLight, Arial, Helvetica, sans-serif;
+	color: #fff;
+	margin-top: 20px;
+	margin-right: 20px;
+	line-height: 25px;
+	text-align: center;
+/*	font-weight: bold;*/
+}
+
+.imag{
+	float: left;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 1px solid #00f300;
+}
+
+.one{
+	margin-bottom: 40px;
+	border: 1px solid #00f300;
+	height: 219px;
+	background-color: #111;
+}

@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.imag{
+	width: 960px;
+    height: 620px;
+}
+#visor{
+    border: 2px solid #00f300;
+    width: 960px;
+    height: 620px;
+    margin: 100px auto;
+    box-shadow: 5px 5px 2.5px #111;
+    position: relative;
+	background: black;
+	
+}

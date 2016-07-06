@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RaubliñaLoL</title>
+    <link  href="imagenes/rs.png"  type="image/x-icon"  rel="shortcut icon">
+    <link  type="text/css"  rel="stylesheet"  media="screen"  href="css/style.css">
+    <link  type="text/css"  rel="stylesheet"  media="screen"  href="css/style-menu.css">
+    <link  type="text/css"  rel="stylesheet"  media="screen"  href="css/style-nove.css">
+    	<link rel="stylesheet" type="text/css" href="css/accordion.css">
+    	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    	<script type="text/javascript" src="js/jquery.accordion.js"></script>
+    	<script type="text/javascript">
+			$(function(){
+				$('.tab_container').accordion({
+					clickItem : $('.same_open'),
+					contentItem : $('.same_open_content'),
+					contentWidth : '340px',
+					closeTime : 500,
+					openTime : 500,
+					tmpInput : $('#tmp'),
+					clickItemBgColor : '#000',
+					contentItemBgColor : '#e2dbcc'
+				});
+			});
+    	</script>
+
+  </head>
+  <body  id="body">
+    <div  id="b1">
+      <div  id="cabecera">
+        <div  id="logo"> <a  href="./index.html"><img  style="width: 273px; height: 127px;"
+
+               src="imagenes/logo.png"></a></div>
+        <div  id="menu">
+          <nav  id="m">
+            <ul>
+              <li><a  href="./index.html">Home</a></li>
+              <li><a  href="./metagame.html">New Metagame</a></li>
+              <li  class="drop"> <a  href="#">Campeones destacados</a>
+                <div  class="dropdownContain">
+                  <div  class="dropOut">
+                    <ul>
+                      <li  onclick="location.href='./azir.html';">Azir</li>
+                      <li  onclick="location.href='./xerath.html';">Xerath</li>
+                      <li  onclick="location.href='./nasus.html';">Nasus</li>
+                      <li  onclick="location.href='./renekton.html';">Renekton</li>
+                      <li  onclick="location.href='./sivir.html';">Sivir</li>
+                      <li  onclick="location.href='./amumu.html';">Amumu</li>
+                      <li  onclick="location.href='./skarner.html';">Skarner</li>
+                      <li  onclick="location.href='./rammus.html';">Rammus</li>
+                      <li  onclick="location.href='./taliyah.html';">Taliyah</li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li  class="drop"> <a  href="#">Objetos destacados</a>
+                <div  class="dropdownContain">
+                  <div  class="dropOut">
+                    <ul>
+                      <li  onclick="location.href='./frozzenheart.html';">Corazón
+                        de Hielo</li>
+                      <li  onclick="location.href='./capafuego.html';">Capa de
+                        fuego Solar</li>
+                      <li  onclick="location.href='./construccion.html';">Hidra
+                        Titánica</li>
+                      <li  onclick="location.href='./construccion.html';">Placa
+                        del Hombre Muerto</li>
+                      <li  onclick="location.href='./construccion.html';">Cuchilla
+                        Oscura</li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li><a  href="./novedades.html">Novedades</a></li>
+              <li><a  href="./team.html">Team</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+    </div>
+    <div  id="cuerpo">   
+        <div class="accordion_content">
+          <div class="same_open same_offset" data="tab-1">C<br>
+            R<br>
+            I<br>
+            S<br>
+			T<br>
+			H<br>
+			O<br>
+			P<br>
+			H<br>
+			</div>
+          <div id="tab-1" class="same_open_content same_offset open_content"> <img src="imagenes/cc.jpg" alt="Cristhian Castro" />
+            <div class="open_article">
+              <h1>Cristhian Castro</h1>
+              <p>Mainea todo, flamea siempre</p>
+            </div>
+          </div>
+          <div class="same_open same_offset" data="tab-2">R<br>
+            O<br>
+            O<br>
+            S<br>
+			T<br>
+			3<br> 
+			R<br>
+			</div>
+          <div id="tab-2" class="same_open_content same_offset"> <img src="imagenes/roos.jpg" alt="Emanuel Mosegue" />
+            <div class="open_article">
+              <h1>Emanuel Mosegue</h1>
+              <p>Feedeo al aurelion y me voy afk</p>
+            </div>
+          </div>
+          <div class="same_open same_offset" data="tab-3">J<br>
+            E<br>
+            R<br>
+            3</div>
+          <div id="tab-3" class="same_open_content same_offset"> <img src="imagenes/JER.jpg" alt="Jeremias Arias" />
+            <div class="open_article">
+              <h1>Jeremias Arias</h1>
+              <p>Todo el retra8</p>
+            </div>
+          </div>
+          
+          <input id="tmp" type="hidden" value="food" />
+        </div><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+	
+    </div>
+    <footer  id="footer">
+      <div  id="logof"><a  href="./index.html"><img  style="width: 100px; height: 50px;"
+
+             src="imagenes/logo.png"></a></div>
+      <p  id="copy">©2016 RaubliñaLoL powered by Bicasoft Corporation &amp; CIA
+      </p>
+    </footer>
+  </body>
+</html>

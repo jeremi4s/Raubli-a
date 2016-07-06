@@ -1,0 +1,65 @@
+<div  id="cuerpo"> 
+      <!-- cabecera -->
+      <div  id="cabecera"> asdas </div>
+      <!-- barra de menu -->
+      <nav  id="menu">
+        <ul>
+          <li><a  href="./index.html">Home</a></li>
+          <li><a  href="./noticias.html">New Metagame</a></li>
+          <li  class="drop"> <a  href="#">Campeones destacados</a>
+            <div  class="dropdownContain">
+              <div  class="dropOut">
+                <ul>
+                  <li  onclick="location.href='./singed.html';">Singed</li>
+                  <li  onclick="location.href='./warwick.html';">Warwick</li>
+                  <li  onclick="location.href='./garen.html';">Garen</li>
+                  <li  onclick="location.href='./darius.html';">Darius</li>
+                  <li  onclick="location.href='./rammus.html';">Rammus</li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li  class="drop"> <a  href="#">Objetos destacados</a>
+            <div  class="dropdownContain">
+              <div  class="dropOut">
+                <ul>
+                  <li  onclick="location.href='./frozzenheart.html';">Corazón de
+                    Hielo</li>
+                  <li  onclick="location.href='./capafuego.html';">Capa de fuego
+                    Solar</li>
+                  <li  onclick="location.href='./construccion.html';">Hidra
+                    Titánica</li>
+                  <li  onclick="location.href='./construccion.html';">Placa del
+                    Hombre Muerto</li>
+                  <li  onclick="location.href='./construccion.html';">Cuchilla
+                    Oscura</li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li><a  href="./nosotros.html">Novedades</a></li>
+          <li><a  href="./nosotros.html">Team</a></li>
+        </ul>
+      </nav>
+    </div>
+	
+	
+	background-image: url(../imagenes/fondo.jpg);
+		height: 80px;
+
+		< img class="img2" src="imagenes/imagen2.jpg" >
+          < img class="img3" src="imagenes/imagen3.jpg" >
+          < img class="img4" src="imagenes/imagen3.jpg" >
+		  
+		  
+		  #visor{
+    border: 2px solid #00f300;
+    width: 600px;
+    height: 300px;
+    margin: 2% auto;
+    box-shadow: 5px 5px 2.5px #111;
+    position: relative;
+	background: transparent;
+}
+
+padding:0 20px;
